@@ -46,7 +46,16 @@ h1{
   position: absolute;
   right:30%;
 }
-
+@media (max-width:992px)
+{
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0deg);
+  }
+}
 /* Feature */
 #features{
   padding: 7% 15%;
@@ -112,4 +121,31 @@ h1{
 }
 .pricing-column{
   padding: 3% 2%;
+}
+
+/* CTA */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+.cta-h3{
+  font-family: "Montserrat-Black";
+  font-size: 4.5rem;
+
+  color: white;
+  font-weight: bold;
+}
+.cta-icon{
+  margin-right: 5%;
+}
+
+/* Footer */
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+}
+.footer-icon{
+  margin: 0% 2% 3% 2%;
 }
